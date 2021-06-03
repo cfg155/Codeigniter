@@ -1,0 +1,21 @@
+{
+  "name": "CI-CRUD_AJAX-JQUERY",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compileJS": "browserify ./appstarter/public/index.js > ./appstarter/public/dist/index.js -t babelify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babelify": "^10.0.0"
+  },
+  "type": "module"
+}
